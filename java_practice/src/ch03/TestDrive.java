@@ -2,7 +2,6 @@
 package ch03;
 
 public class TestDrive {
-
     public static void main(String[] args) {
         IntArrayTest test1 = new IntArrayTest();
         test1.test();

@@ -15,5 +15,4 @@ public class Dog {
     public void bark(){ // 사용자 정의 함수
         System.out.println(name + "이(가) 왈!하고 짖습니다.");
     }
-    
 }

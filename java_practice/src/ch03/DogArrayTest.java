@@ -11,6 +11,7 @@ public class DogArrayTest {
         // Dog는 Primitive type이 아닌 사용자 정의형이므로
         // 객체배열을 생성하고 각 배열마다 new를 사용해 주어야 한다.
         // (배열크기 + 1)만큼 new사용
+        
         System.out.print("마지막 개의 이름 : ");
         System.out.println(myDogs[myDogs.length-1].getName());
         System.out.println("------------");

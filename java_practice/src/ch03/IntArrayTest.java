@@ -16,7 +16,6 @@ public class IntArrayTest {
             sum = sum + nums[i];
         }
         System.out.println("평균 1: "+(float)sum/MAX_NUMS);
-        
         this.calculateSumUsingWrapper(nums);
     }
     private void calculateSumUsingWrapper(int[] nums){
