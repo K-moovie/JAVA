@@ -14,6 +14,8 @@ public class SimpleDotCom {
         String result = "miss";
         for(int i = 0; i < locationCells.length;i++){
             if(guess == locationCells[i]){
+        //for(int cell : locationCells){ //enhanced loop
+            //if(guess == cell){
                 result = "hit";
                 numOfHits++;
                 break;
